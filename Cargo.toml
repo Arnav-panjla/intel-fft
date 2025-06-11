@@ -1,7 +1,11 @@
 [package]
-name = "intel-fft"
+name = "fft_intel"
 version = "0.1.0"
 edition = "2024"
 
 [dependencies]
 num-complex = "0.4"
+
+[lib]
+name = "fft_intel"
+path = "src/lib.rs"
